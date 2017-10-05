@@ -1,0 +1,1561 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-32,0,0,5,-116"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="*Nombre del ni&#xf1;o (a):"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="160" width="120" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtApMaternoNi&#xf1;o">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="570" y="160" width="110" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDiagnostico">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="100" y="250" width="580" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="*Diagnostico: "/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="250" width="80" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="*Escolaridad:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="220" width="90" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="*Fecha de nacimiento:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="410" y="190" width="130" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCorreo">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="380" y="220" width="100" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="*Edad:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="190" width="60" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="*Servicio M&#xe9;dico: "/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="280" width="120" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtServicioMedico">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="200" y="280" width="160" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Al&#xe9;rgico a:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="400" y="280" width="70" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAlergia">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="490" y="280" width="190" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Programaci&#xf3;n de terapias:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="310" width="150" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTerapias">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="200" y="310" width="160" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="*Duraci&#xf3;n: "/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="400" y="310" width="70" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDuracion">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="490" y="310" width="190" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Observaciones:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="30" y="400" width="100" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="30" y="430" width="650" height="80"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="txpObservaciones1">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Correo electronico: "/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="270" y="220" width="110" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="jfcFechaNi&#xf1;o">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="540" y="190" width="140" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFoto">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Cursor de Mano"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblFotoMouseClicked"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="440" y="530" width="140" height="150"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbxEdadAcompa&#xf1;ante2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="112">
+            <StringItem index="0" value="Seleccione Edad"/>
+            <StringItem index="1" value="Maternal"/>
+            <StringItem index="2" value="1"/>
+            <StringItem index="3" value="2"/>
+            <StringItem index="4" value="3"/>
+            <StringItem index="5" value="4"/>
+            <StringItem index="6" value="5"/>
+            <StringItem index="7" value="6"/>
+            <StringItem index="8" value="7"/>
+            <StringItem index="9" value="8"/>
+            <StringItem index="10" value="9"/>
+            <StringItem index="11" value="10"/>
+            <StringItem index="12" value="11"/>
+            <StringItem index="13" value="12"/>
+            <StringItem index="14" value="13"/>
+            <StringItem index="15" value="14"/>
+            <StringItem index="16" value="15"/>
+            <StringItem index="17" value="16"/>
+            <StringItem index="18" value="17"/>
+            <StringItem index="19" value="18"/>
+            <StringItem index="20" value="19"/>
+            <StringItem index="21" value="20"/>
+            <StringItem index="22" value="21"/>
+            <StringItem index="23" value="22"/>
+            <StringItem index="24" value="23"/>
+            <StringItem index="25" value="24"/>
+            <StringItem index="26" value="25"/>
+            <StringItem index="27" value="26"/>
+            <StringItem index="28" value="27"/>
+            <StringItem index="29" value="28"/>
+            <StringItem index="30" value="29"/>
+            <StringItem index="31" value="30"/>
+            <StringItem index="32" value="31"/>
+            <StringItem index="33" value="32"/>
+            <StringItem index="34" value="33"/>
+            <StringItem index="35" value="34"/>
+            <StringItem index="36" value="35"/>
+            <StringItem index="37" value="36"/>
+            <StringItem index="38" value="37"/>
+            <StringItem index="39" value="38"/>
+            <StringItem index="40" value="39"/>
+            <StringItem index="41" value="40"/>
+            <StringItem index="42" value="41"/>
+            <StringItem index="43" value="42"/>
+            <StringItem index="44" value="43"/>
+            <StringItem index="45" value="44"/>
+            <StringItem index="46" value="45"/>
+            <StringItem index="47" value="46"/>
+            <StringItem index="48" value="47"/>
+            <StringItem index="49" value="48"/>
+            <StringItem index="50" value="49"/>
+            <StringItem index="51" value="50"/>
+            <StringItem index="52" value="51"/>
+            <StringItem index="53" value="52"/>
+            <StringItem index="54" value="53"/>
+            <StringItem index="55" value="54"/>
+            <StringItem index="56" value="55"/>
+            <StringItem index="57" value="56"/>
+            <StringItem index="58" value="57"/>
+            <StringItem index="59" value="58"/>
+            <StringItem index="60" value="59"/>
+            <StringItem index="61" value="60"/>
+            <StringItem index="62" value="61"/>
+            <StringItem index="63" value="62"/>
+            <StringItem index="64" value="63"/>
+            <StringItem index="65" value="64"/>
+            <StringItem index="66" value="65"/>
+            <StringItem index="67" value="66"/>
+            <StringItem index="68" value="67"/>
+            <StringItem index="69" value="68"/>
+            <StringItem index="70" value="69"/>
+            <StringItem index="71" value="70"/>
+            <StringItem index="72" value="71"/>
+            <StringItem index="73" value="72"/>
+            <StringItem index="74" value="73"/>
+            <StringItem index="75" value="74"/>
+            <StringItem index="76" value="75"/>
+            <StringItem index="77" value="76"/>
+            <StringItem index="78" value="77"/>
+            <StringItem index="79" value="78"/>
+            <StringItem index="80" value="79"/>
+            <StringItem index="81" value="80"/>
+            <StringItem index="82" value="81"/>
+            <StringItem index="83" value="82"/>
+            <StringItem index="84" value="83"/>
+            <StringItem index="85" value="84"/>
+            <StringItem index="86" value="85"/>
+            <StringItem index="87" value="86"/>
+            <StringItem index="88" value="87"/>
+            <StringItem index="89" value="88"/>
+            <StringItem index="90" value="89"/>
+            <StringItem index="91" value="90"/>
+            <StringItem index="92" value="91"/>
+            <StringItem index="93" value="92"/>
+            <StringItem index="94" value="93"/>
+            <StringItem index="95" value="94"/>
+            <StringItem index="96" value="95"/>
+            <StringItem index="97" value="96"/>
+            <StringItem index="98" value="97"/>
+            <StringItem index="99" value="98"/>
+            <StringItem index="100" value="99"/>
+            <StringItem index="101" value="100"/>
+            <StringItem index="102" value="101"/>
+            <StringItem index="103" value="102"/>
+            <StringItem index="104" value="103"/>
+            <StringItem index="105" value="104"/>
+            <StringItem index="106" value="105"/>
+            <StringItem index="107" value="106"/>
+            <StringItem index="108" value="107"/>
+            <StringItem index="109" value="108"/>
+            <StringItem index="110" value="109"/>
+            <StringItem index="111" value="110"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1190" y="380" width="150" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbxEscolaridad">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="8">
+            <StringItem index="0" value="Seleccione Escolaridad"/>
+            <StringItem index="1" value="Sin Educaci&#xf3;n Formal"/>
+            <StringItem index="2" value="Educaci&#xf3;n Preescolar"/>
+            <StringItem index="3" value="Educaci&#xf3;n Primaria"/>
+            <StringItem index="4" value="Educaci&#xf3;n Secundaria"/>
+            <StringItem index="5" value="Bachillerato / Preparatoria"/>
+            <StringItem index="6" value="Carrera Tecnica"/>
+            <StringItem index="7" value="Licenciatura / Posgrado"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="90" y="220" width="170" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbxCorreo">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="8">
+            <StringItem index="0" value="Seleccione Correo"/>
+            <StringItem index="1" value="@hotmail.com"/>
+            <StringItem index="2" value="@gmail.com"/>
+            <StringItem index="3" value="@outlook.com"/>
+            <StringItem index="4" value="@yahoo.com"/>
+            <StringItem index="5" value="@yahoo.com.mx"/>
+            <StringItem index="6" value="@live.com"/>
+            <StringItem index="7" value="@live.com.mx"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="490" y="220" width="150" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnOtroCorreo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="..."/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="650" y="220" width="30" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tipo de sangre:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="190" y="190" width="90" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbxSangre">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="10">
+            <StringItem index="0" value="Tipo de sangre"/>
+            <StringItem index="1" value="O-"/>
+            <StringItem index="2" value="O+"/>
+            <StringItem index="3" value="A-"/>
+            <StringItem index="4" value="A+"/>
+            <StringItem index="5" value="B+"/>
+            <StringItem index="6" value="B-"/>
+            <StringItem index="7" value="AB-"/>
+            <StringItem index="8" value="AB+"/>
+            <StringItem index="9" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="280" y="190" width="120" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre del tutor:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="720" y="160" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Edad:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1130" y="160" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel16">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Direcci&#xf3;n:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="720" y="190" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel17">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#xf3;digo postal:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="720" y="220" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel18">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2."/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="720" y="300" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel19">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cel.:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1180" y="300" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel20">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tel. Casa:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="920" y="220" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel21">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Municipio: "/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1130" y="190" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel22">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Personas que acompa&#xf1;an y parentesco:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="720" y="330" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel23">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1."/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="720" y="270" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel24">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cel.:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1160" y="220" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel25">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tel.:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1010" y="300" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel26">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cel.:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1180" y="270" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel27">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tel.:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1010" y="270" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel28">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre de dos familiares para avisar en caso de emergencia:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="720" y="250" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel29">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1."/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="720" y="350" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel30">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2."/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="720" y="380" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel31">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=","/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="940" y="350" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel32">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=","/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="940" y="380" width="20" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel33">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Edad:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1160" y="380" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel34">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Edad:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1160" y="350" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNombreTutor">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="820" y="160" width="300" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDireccionTutor">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="820" y="190" width="300" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCPTutor">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="820" y="220" width="90" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTelCasaTutor">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="980" y="220" width="140" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCelTutor">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1210" y="220" width="130" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFamiliar2">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="740" y="300" width="260" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFamiliar1">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="740" y="270" width="260" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTelFamiliar2">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1040" y="300" width="130" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTelFamiliar1">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1040" y="270" width="130" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCelFamiliar2">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1210" y="300" width="130" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCelFamiliar1">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1210" y="270" width="130" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAcompa&#xf1;ante2">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="740" y="380" width="190" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAcompa&#xf1;ante1">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="740" y="350" width="190" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtParentesco2">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="950" y="380" width="200" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtParentesco1">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="950" y="350" width="200" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbxEdadNi&#xf1;o">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="112">
+            <StringItem index="0" value="Seleccione Edad"/>
+            <StringItem index="1" value="Maternal"/>
+            <StringItem index="2" value="1"/>
+            <StringItem index="3" value="2"/>
+            <StringItem index="4" value="3"/>
+            <StringItem index="5" value="4"/>
+            <StringItem index="6" value="5"/>
+            <StringItem index="7" value="6"/>
+            <StringItem index="8" value="7"/>
+            <StringItem index="9" value="8"/>
+            <StringItem index="10" value="9"/>
+            <StringItem index="11" value="10"/>
+            <StringItem index="12" value="11"/>
+            <StringItem index="13" value="12"/>
+            <StringItem index="14" value="13"/>
+            <StringItem index="15" value="14"/>
+            <StringItem index="16" value="15"/>
+            <StringItem index="17" value="16"/>
+            <StringItem index="18" value="17"/>
+            <StringItem index="19" value="18"/>
+            <StringItem index="20" value="19"/>
+            <StringItem index="21" value="20"/>
+            <StringItem index="22" value="21"/>
+            <StringItem index="23" value="22"/>
+            <StringItem index="24" value="23"/>
+            <StringItem index="25" value="24"/>
+            <StringItem index="26" value="25"/>
+            <StringItem index="27" value="26"/>
+            <StringItem index="28" value="27"/>
+            <StringItem index="29" value="28"/>
+            <StringItem index="30" value="29"/>
+            <StringItem index="31" value="30"/>
+            <StringItem index="32" value="31"/>
+            <StringItem index="33" value="32"/>
+            <StringItem index="34" value="33"/>
+            <StringItem index="35" value="34"/>
+            <StringItem index="36" value="35"/>
+            <StringItem index="37" value="36"/>
+            <StringItem index="38" value="37"/>
+            <StringItem index="39" value="38"/>
+            <StringItem index="40" value="39"/>
+            <StringItem index="41" value="40"/>
+            <StringItem index="42" value="41"/>
+            <StringItem index="43" value="42"/>
+            <StringItem index="44" value="43"/>
+            <StringItem index="45" value="44"/>
+            <StringItem index="46" value="45"/>
+            <StringItem index="47" value="46"/>
+            <StringItem index="48" value="47"/>
+            <StringItem index="49" value="48"/>
+            <StringItem index="50" value="49"/>
+            <StringItem index="51" value="50"/>
+            <StringItem index="52" value="51"/>
+            <StringItem index="53" value="52"/>
+            <StringItem index="54" value="53"/>
+            <StringItem index="55" value="54"/>
+            <StringItem index="56" value="55"/>
+            <StringItem index="57" value="56"/>
+            <StringItem index="58" value="57"/>
+            <StringItem index="59" value="58"/>
+            <StringItem index="60" value="59"/>
+            <StringItem index="61" value="60"/>
+            <StringItem index="62" value="61"/>
+            <StringItem index="63" value="62"/>
+            <StringItem index="64" value="63"/>
+            <StringItem index="65" value="64"/>
+            <StringItem index="66" value="65"/>
+            <StringItem index="67" value="66"/>
+            <StringItem index="68" value="67"/>
+            <StringItem index="69" value="68"/>
+            <StringItem index="70" value="69"/>
+            <StringItem index="71" value="70"/>
+            <StringItem index="72" value="71"/>
+            <StringItem index="73" value="72"/>
+            <StringItem index="74" value="73"/>
+            <StringItem index="75" value="74"/>
+            <StringItem index="76" value="75"/>
+            <StringItem index="77" value="76"/>
+            <StringItem index="78" value="77"/>
+            <StringItem index="79" value="78"/>
+            <StringItem index="80" value="79"/>
+            <StringItem index="81" value="80"/>
+            <StringItem index="82" value="81"/>
+            <StringItem index="83" value="82"/>
+            <StringItem index="84" value="83"/>
+            <StringItem index="85" value="84"/>
+            <StringItem index="86" value="85"/>
+            <StringItem index="87" value="86"/>
+            <StringItem index="88" value="87"/>
+            <StringItem index="89" value="88"/>
+            <StringItem index="90" value="89"/>
+            <StringItem index="91" value="90"/>
+            <StringItem index="92" value="91"/>
+            <StringItem index="93" value="92"/>
+            <StringItem index="94" value="93"/>
+            <StringItem index="95" value="94"/>
+            <StringItem index="96" value="95"/>
+            <StringItem index="97" value="96"/>
+            <StringItem index="98" value="97"/>
+            <StringItem index="99" value="98"/>
+            <StringItem index="100" value="99"/>
+            <StringItem index="101" value="100"/>
+            <StringItem index="102" value="101"/>
+            <StringItem index="103" value="102"/>
+            <StringItem index="104" value="103"/>
+            <StringItem index="105" value="104"/>
+            <StringItem index="106" value="105"/>
+            <StringItem index="107" value="106"/>
+            <StringItem index="108" value="107"/>
+            <StringItem index="109" value="108"/>
+            <StringItem index="110" value="109"/>
+            <StringItem index="111" value="110"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="50" y="190" width="130" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbxEdadTutor">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="112">
+            <StringItem index="0" value="Seleccione Edad"/>
+            <StringItem index="1" value="Maternal"/>
+            <StringItem index="2" value="1"/>
+            <StringItem index="3" value="2"/>
+            <StringItem index="4" value="3"/>
+            <StringItem index="5" value="4"/>
+            <StringItem index="6" value="5"/>
+            <StringItem index="7" value="6"/>
+            <StringItem index="8" value="7"/>
+            <StringItem index="9" value="8"/>
+            <StringItem index="10" value="9"/>
+            <StringItem index="11" value="10"/>
+            <StringItem index="12" value="11"/>
+            <StringItem index="13" value="12"/>
+            <StringItem index="14" value="13"/>
+            <StringItem index="15" value="14"/>
+            <StringItem index="16" value="15"/>
+            <StringItem index="17" value="16"/>
+            <StringItem index="18" value="17"/>
+            <StringItem index="19" value="18"/>
+            <StringItem index="20" value="19"/>
+            <StringItem index="21" value="20"/>
+            <StringItem index="22" value="21"/>
+            <StringItem index="23" value="22"/>
+            <StringItem index="24" value="23"/>
+            <StringItem index="25" value="24"/>
+            <StringItem index="26" value="25"/>
+            <StringItem index="27" value="26"/>
+            <StringItem index="28" value="27"/>
+            <StringItem index="29" value="28"/>
+            <StringItem index="30" value="29"/>
+            <StringItem index="31" value="30"/>
+            <StringItem index="32" value="31"/>
+            <StringItem index="33" value="32"/>
+            <StringItem index="34" value="33"/>
+            <StringItem index="35" value="34"/>
+            <StringItem index="36" value="35"/>
+            <StringItem index="37" value="36"/>
+            <StringItem index="38" value="37"/>
+            <StringItem index="39" value="38"/>
+            <StringItem index="40" value="39"/>
+            <StringItem index="41" value="40"/>
+            <StringItem index="42" value="41"/>
+            <StringItem index="43" value="42"/>
+            <StringItem index="44" value="43"/>
+            <StringItem index="45" value="44"/>
+            <StringItem index="46" value="45"/>
+            <StringItem index="47" value="46"/>
+            <StringItem index="48" value="47"/>
+            <StringItem index="49" value="48"/>
+            <StringItem index="50" value="49"/>
+            <StringItem index="51" value="50"/>
+            <StringItem index="52" value="51"/>
+            <StringItem index="53" value="52"/>
+            <StringItem index="54" value="53"/>
+            <StringItem index="55" value="54"/>
+            <StringItem index="56" value="55"/>
+            <StringItem index="57" value="56"/>
+            <StringItem index="58" value="57"/>
+            <StringItem index="59" value="58"/>
+            <StringItem index="60" value="59"/>
+            <StringItem index="61" value="60"/>
+            <StringItem index="62" value="61"/>
+            <StringItem index="63" value="62"/>
+            <StringItem index="64" value="63"/>
+            <StringItem index="65" value="64"/>
+            <StringItem index="66" value="65"/>
+            <StringItem index="67" value="66"/>
+            <StringItem index="68" value="67"/>
+            <StringItem index="69" value="68"/>
+            <StringItem index="70" value="69"/>
+            <StringItem index="71" value="70"/>
+            <StringItem index="72" value="71"/>
+            <StringItem index="73" value="72"/>
+            <StringItem index="74" value="73"/>
+            <StringItem index="75" value="74"/>
+            <StringItem index="76" value="75"/>
+            <StringItem index="77" value="76"/>
+            <StringItem index="78" value="77"/>
+            <StringItem index="79" value="78"/>
+            <StringItem index="80" value="79"/>
+            <StringItem index="81" value="80"/>
+            <StringItem index="82" value="81"/>
+            <StringItem index="83" value="82"/>
+            <StringItem index="84" value="83"/>
+            <StringItem index="85" value="84"/>
+            <StringItem index="86" value="85"/>
+            <StringItem index="87" value="86"/>
+            <StringItem index="88" value="87"/>
+            <StringItem index="89" value="88"/>
+            <StringItem index="90" value="89"/>
+            <StringItem index="91" value="90"/>
+            <StringItem index="92" value="91"/>
+            <StringItem index="93" value="92"/>
+            <StringItem index="94" value="93"/>
+            <StringItem index="95" value="94"/>
+            <StringItem index="96" value="95"/>
+            <StringItem index="97" value="96"/>
+            <StringItem index="98" value="97"/>
+            <StringItem index="99" value="98"/>
+            <StringItem index="100" value="99"/>
+            <StringItem index="101" value="100"/>
+            <StringItem index="102" value="101"/>
+            <StringItem index="103" value="102"/>
+            <StringItem index="104" value="103"/>
+            <StringItem index="105" value="104"/>
+            <StringItem index="106" value="105"/>
+            <StringItem index="107" value="106"/>
+            <StringItem index="108" value="107"/>
+            <StringItem index="109" value="108"/>
+            <StringItem index="110" value="109"/>
+            <StringItem index="111" value="110"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1190" y="160" width="150" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbxEdadAcompa&#xf1;ante1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="112">
+            <StringItem index="0" value="Seleccione Edad"/>
+            <StringItem index="1" value="Maternal"/>
+            <StringItem index="2" value="1"/>
+            <StringItem index="3" value="2"/>
+            <StringItem index="4" value="3"/>
+            <StringItem index="5" value="4"/>
+            <StringItem index="6" value="5"/>
+            <StringItem index="7" value="6"/>
+            <StringItem index="8" value="7"/>
+            <StringItem index="9" value="8"/>
+            <StringItem index="10" value="9"/>
+            <StringItem index="11" value="10"/>
+            <StringItem index="12" value="11"/>
+            <StringItem index="13" value="12"/>
+            <StringItem index="14" value="13"/>
+            <StringItem index="15" value="14"/>
+            <StringItem index="16" value="15"/>
+            <StringItem index="17" value="16"/>
+            <StringItem index="18" value="17"/>
+            <StringItem index="19" value="18"/>
+            <StringItem index="20" value="19"/>
+            <StringItem index="21" value="20"/>
+            <StringItem index="22" value="21"/>
+            <StringItem index="23" value="22"/>
+            <StringItem index="24" value="23"/>
+            <StringItem index="25" value="24"/>
+            <StringItem index="26" value="25"/>
+            <StringItem index="27" value="26"/>
+            <StringItem index="28" value="27"/>
+            <StringItem index="29" value="28"/>
+            <StringItem index="30" value="29"/>
+            <StringItem index="31" value="30"/>
+            <StringItem index="32" value="31"/>
+            <StringItem index="33" value="32"/>
+            <StringItem index="34" value="33"/>
+            <StringItem index="35" value="34"/>
+            <StringItem index="36" value="35"/>
+            <StringItem index="37" value="36"/>
+            <StringItem index="38" value="37"/>
+            <StringItem index="39" value="38"/>
+            <StringItem index="40" value="39"/>
+            <StringItem index="41" value="40"/>
+            <StringItem index="42" value="41"/>
+            <StringItem index="43" value="42"/>
+            <StringItem index="44" value="43"/>
+            <StringItem index="45" value="44"/>
+            <StringItem index="46" value="45"/>
+            <StringItem index="47" value="46"/>
+            <StringItem index="48" value="47"/>
+            <StringItem index="49" value="48"/>
+            <StringItem index="50" value="49"/>
+            <StringItem index="51" value="50"/>
+            <StringItem index="52" value="51"/>
+            <StringItem index="53" value="52"/>
+            <StringItem index="54" value="53"/>
+            <StringItem index="55" value="54"/>
+            <StringItem index="56" value="55"/>
+            <StringItem index="57" value="56"/>
+            <StringItem index="58" value="57"/>
+            <StringItem index="59" value="58"/>
+            <StringItem index="60" value="59"/>
+            <StringItem index="61" value="60"/>
+            <StringItem index="62" value="61"/>
+            <StringItem index="63" value="62"/>
+            <StringItem index="64" value="63"/>
+            <StringItem index="65" value="64"/>
+            <StringItem index="66" value="65"/>
+            <StringItem index="67" value="66"/>
+            <StringItem index="68" value="67"/>
+            <StringItem index="69" value="68"/>
+            <StringItem index="70" value="69"/>
+            <StringItem index="71" value="70"/>
+            <StringItem index="72" value="71"/>
+            <StringItem index="73" value="72"/>
+            <StringItem index="74" value="73"/>
+            <StringItem index="75" value="74"/>
+            <StringItem index="76" value="75"/>
+            <StringItem index="77" value="76"/>
+            <StringItem index="78" value="77"/>
+            <StringItem index="79" value="78"/>
+            <StringItem index="80" value="79"/>
+            <StringItem index="81" value="80"/>
+            <StringItem index="82" value="81"/>
+            <StringItem index="83" value="82"/>
+            <StringItem index="84" value="83"/>
+            <StringItem index="85" value="84"/>
+            <StringItem index="86" value="85"/>
+            <StringItem index="87" value="86"/>
+            <StringItem index="88" value="87"/>
+            <StringItem index="89" value="88"/>
+            <StringItem index="90" value="89"/>
+            <StringItem index="91" value="90"/>
+            <StringItem index="92" value="91"/>
+            <StringItem index="93" value="92"/>
+            <StringItem index="94" value="93"/>
+            <StringItem index="95" value="94"/>
+            <StringItem index="96" value="95"/>
+            <StringItem index="97" value="96"/>
+            <StringItem index="98" value="97"/>
+            <StringItem index="99" value="98"/>
+            <StringItem index="100" value="99"/>
+            <StringItem index="101" value="100"/>
+            <StringItem index="102" value="101"/>
+            <StringItem index="103" value="102"/>
+            <StringItem index="104" value="103"/>
+            <StringItem index="105" value="104"/>
+            <StringItem index="106" value="105"/>
+            <StringItem index="107" value="106"/>
+            <StringItem index="108" value="107"/>
+            <StringItem index="109" value="108"/>
+            <StringItem index="110" value="109"/>
+            <StringItem index="111" value="110"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1190" y="350" width="150" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbxMunicipio">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="68">
+            <StringItem index="0" value="Seleccione Municipio"/>
+            <StringItem index="1" value="Ahumada"/>
+            <StringItem index="2" value="Aldama"/>
+            <StringItem index="3" value="Allende"/>
+            <StringItem index="4" value="Aquiles Serd&#xe1;n"/>
+            <StringItem index="5" value="Ascensi&#xf3;n"/>
+            <StringItem index="6" value="Bach&#xed;niva"/>
+            <StringItem index="7" value="Balleza"/>
+            <StringItem index="8" value="Batopilas"/>
+            <StringItem index="9" value="Bocoyna"/>
+            <StringItem index="10" value="Buenaventura"/>
+            <StringItem index="11" value="Camargo"/>
+            <StringItem index="12" value="Carich&#xed;"/>
+            <StringItem index="13" value="Casas Grandes"/>
+            <StringItem index="14" value="Chihuahua"/>
+            <StringItem index="15" value="Ch&#xed;nipas"/>
+            <StringItem index="16" value="Coronado"/>
+            <StringItem index="17" value="Coyame del Sotol"/>
+            <StringItem index="18" value="Cuauht&#xe9;moc"/>
+            <StringItem index="19" value="Cusihuiriachi"/>
+            <StringItem index="20" value="Delicias"/>
+            <StringItem index="21" value="Dr. Belisario Dom&#xed;nguez"/>
+            <StringItem index="22" value="El Tule"/>
+            <StringItem index="23" value="Galeana"/>
+            <StringItem index="24" value="G&#xf3;mez Far&#xed;as"/>
+            <StringItem index="25" value="Gran Morelos"/>
+            <StringItem index="26" value="Guachochi"/>
+            <StringItem index="27" value="Guadalupe"/>
+            <StringItem index="28" value="Guadalupe y Calvo"/>
+            <StringItem index="29" value="Guazapares"/>
+            <StringItem index="30" value="Guerrero"/>
+            <StringItem index="31" value="Hidalgo del Parral"/>
+            <StringItem index="32" value="Huejotit&#xe1;n"/>
+            <StringItem index="33" value="Ignacio Zaragoza"/>
+            <StringItem index="34" value="Janos"/>
+            <StringItem index="35" value="Jim&#xe9;nez"/>
+            <StringItem index="36" value="Ju&#xe1;rez"/>
+            <StringItem index="37" value="Julimes"/>
+            <StringItem index="38" value="La Cruz"/>
+            <StringItem index="39" value="L&#xf3;pez"/>
+            <StringItem index="40" value="Madera"/>
+            <StringItem index="41" value="Maguarichi"/>
+            <StringItem index="42" value="Manuel Benavides"/>
+            <StringItem index="43" value="Matach&#xed;"/>
+            <StringItem index="44" value="Matamoros"/>
+            <StringItem index="45" value="Meoqui"/>
+            <StringItem index="46" value="Morelos"/>
+            <StringItem index="47" value="Moris"/>
+            <StringItem index="48" value="Namiquipa"/>
+            <StringItem index="49" value="Nonoava"/>
+            <StringItem index="50" value="Nuevo Casas Grandes"/>
+            <StringItem index="51" value="Ocampo"/>
+            <StringItem index="52" value="Ojinaga"/>
+            <StringItem index="53" value="Praxedis G. Guerrero"/>
+            <StringItem index="54" value="Riva Palacio"/>
+            <StringItem index="55" value="Rosales"/>
+            <StringItem index="56" value="Rosario"/>
+            <StringItem index="57" value="San Francisco de Borja"/>
+            <StringItem index="58" value="San Francisco de Conchos"/>
+            <StringItem index="59" value="San Francisco del Oro"/>
+            <StringItem index="60" value="Santa B&#xe1;rbara"/>
+            <StringItem index="61" value="Santa Isabel"/>
+            <StringItem index="62" value="Satev&#xf3;"/>
+            <StringItem index="63" value="Saucillo"/>
+            <StringItem index="64" value="Tem&#xf3;sachi"/>
+            <StringItem index="65" value="Urique"/>
+            <StringItem index="66" value="Uruachi"/>
+            <StringItem index="67" value="Valle de Zaragoza"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1190" y="190" width="150" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="720" y="430" width="620" height="80"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="txpObservaciones2">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel35">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Observaciones:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="720" y="400" width="100" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel36">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tiempo asistiendo al CRIT: "/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="600" y="580" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel37">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tiempo asistiendo al albergue: "/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="600" y="540" width="-1" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTiempoCRIT">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="770" y="580" width="130" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTiempoAlbergue">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="770" y="540" width="130" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnGuardar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Guardar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGuardarActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="670" y="630" width="170" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Ave. Industrial II N&#xb0; 7814, Fracc. Industrual Robinson CP 31384 T&#xe9;l. 420"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="460" y="90" width="530" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel38">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="VOLUNTARIAS VICENTINAS DE CHIHUAHUA A.C."/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="470" y="10" width="480" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel39">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Chihuahua, Chih."/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="640" y="120" width="140" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel40">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="ALBERGUE SAN VICENTE DE PAUL"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="490" y="60" width="500" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel41">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="48" width="1420" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRuta">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="440" y="690" width="140" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBuscar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Buscar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBuscarActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="30" y="120" width="100" height="30"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel42">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ap Materno:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="500" y="160" width="70" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNombreNi&#xf1;o">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNombreNi&#xf1;oActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="130" y="160" width="160" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtApPaternoNi&#xf1;o">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="380" y="160" width="110" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel43">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="*Ap Paterno:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="300" y="160" width="70" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="30" y="60" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancelar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="150" y="120" width="90" height="30"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
